@@ -3,8 +3,8 @@ import { MoveRight } from "lucide-react";
 
 export default function App() {
   return (
-    <main className="app space-y-1 px-1 md:px-0">
-      <h1 className="head-text mt-6 md:mt-32 lg:mt-40">
+    <main className="app space-y-12 px-1 md:px-0">
+      <h1 className="head-text mt-40">
         <span className="purple-gradient">Vite</span> +{" "}
         <span className="blue-gradient">React</span> +{" "}
         <span className="primary-gradient">ShadCN</span>
