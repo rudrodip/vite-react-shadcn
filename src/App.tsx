@@ -1,5 +1,5 @@
 import { siteConfig } from "@/config/site.config";
-import { MoveRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export default function App() {
   return (
@@ -35,7 +35,7 @@ const Card = ({ title, description, url }: { title: string, description: string,
     <a href={url} target="_blank" className="group w-full h-full hover:bg-accent/30 transition-all duration-75 rounded border p-3">
       <div className="flex items-center w-full gap-2">
         <h1 className="text-2xl">{title}</h1>
-        <MoveRight size={20} className="-translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-200" />
+        <ArrowRight size={20} className="-translate-x-4 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-200" />
       </div>
       <p className="mt-6 max-w-sm">{description}</p>
     </a>
